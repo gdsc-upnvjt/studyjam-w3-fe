@@ -38,7 +38,7 @@ div.input-container, div.booklist-container {
 .basic-style-input {
   display: block;
   width: 100%;
-  margin-top: 12px;
+  margin-top: 16px;
   border: 1.5px solid rgb(234, 234, 234);
   outline: 0;
   padding-left: 12px;
@@ -57,6 +57,17 @@ div.input-container, div.booklist-container {
   display: flex;
   gap: 16px;
   margin-top: 16px;
+}
+
+.book {
+  padding: 16px;
+  border: 1px solid rgba(169, 169, 169, 0.607);
+  margin-top: 16px;
+}
+
+.done-reading{
+  background-color: rgba(169, 169, 169, 0.607);
+  opacity: 0.5;
 }
 
 .done {
@@ -89,7 +100,23 @@ div.input-container, div.booklist-container {
   opacity: 0.6;
 }
 
-.book {
-  padding: 16px;
-  border: 1px solid rgba(169, 169, 169, 0.607);
+
+#submit-button {
+  display: block;
+  width: 100%;
+  margin-top: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid lightblue;
+  color: deepskyblue;
+  background-color: lightcyan;
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#submit-button:hover{
+  opacity: 0.7;
 }
